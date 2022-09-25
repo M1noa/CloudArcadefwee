@@ -1,0 +1,1 @@
+<div class="banner-ads"><img src="/images/ad-300.png" class="banner-300"></div>

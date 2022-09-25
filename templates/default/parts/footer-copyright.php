@@ -1,0 +1,1 @@
+<?php echo SITE_TITLE ?> © 2020. All rights reserved. Powered by <a href="http://cloudarcade.net">Cloud Arcade</a> v<?php echo VERSION ?> <?php if(is_login()){ echo '<a href="/admin.php">Admin Dashboard</a>'; } ?>

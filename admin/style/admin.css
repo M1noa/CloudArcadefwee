@@ -1,0 +1,146 @@
+.sidebar {
+	background-color: #363b3f;
+	position: fixed;
+    top: 0;
+    bottom: -120px;
+    z-index: 1;
+    width: 260px;
+}
+.sidebar a:hover {
+	text-decoration: none;
+}
+ul#menu-list {
+	list-style: none;
+	padding-left: 0;
+	font-size: 20px;
+}
+.li-list {
+    color: #fff;
+    padding: 6px;
+    padding-left: 16px;
+}
+#menu-list li:hover {
+    background-color: #19bae0;
+    text-decoration: none;
+}
+#menu-list li.active {
+    background-color: #19bae0;
+}
+.content {
+	margin-left: 300px;
+	margin-top: 70px;
+	max-width: 992px;
+	margin-bottom: 40px;
+}
+.tab-container {
+	margin: 30px 10px;
+}
+.admin-bar {
+	background-color: #363b3f;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	height: 42px;
+	padding-right: 20px;
+	z-index: 1;
+}
+.admin-bar .quicklinks {
+	float: right;
+	margin: auto 5px;
+	padding: 6px;
+}
+.admin-bar a {
+	color: #fff;
+}
+.page-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+button.remove-category {
+	margin-left: auto;
+}
+span.badge {
+	margin-left: 20px;
+}
+.logo {
+    padding: 6px;
+    height: 42px;
+    margin-left: 10px;
+}
+.install-form, .login-form {
+	max-width: 400px;
+	background-color: #FFF;
+	padding: 30px 10px;
+	border-radius: 5px;
+	margin: auto;
+}
+.install-body, .login-body {
+	background-color: #eee;
+}
+.install-container, .login-container {
+	margin-top: 180px;
+}
+
+/* Quotes */
+
+.quote-box {
+    border-radius: 3px;
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    font-size: 10px;
+    padding-top: 0;
+}
+#quote {
+    overflow: hidden;
+    margin-bottom: 20px;
+    opacity: 1;
+    transition: all 0.8s cubic-bezier(0.44, 1.13, 0.58, 1);
+}
+.quote-text {
+    font-size: 2em;
+}
+.author {
+    font-size: 1.4em;
+    font-weight: 600;
+    float: right;
+}
+.disabled-list {
+	opacity: 0.5;
+	pointer-events: none;
+	cursor: default;
+}
+.btn-primary {
+	background-color: #19bae0;
+	border-color: #19bae0;
+}
+
+.bs-callout {
+	margin: 20px 0;
+	padding: 15px 30px 15px 15px;
+	border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+	margin-top: 0;
+}
+.bs-callout p:last-child {
+	margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+	background-color: #fff;
+}
+
+.bs-callout-danger {
+	background-color: #fcf2f2;
+	border-color: #d9534f;
+}
+.bs-callout-warning {
+	background-color: #fefbed;
+	border-color: #f0ad4e;
+}
+.bs-callout-info {
+	background-color: #f0f7fd;
+	border-color: #5bc0de;
+}
